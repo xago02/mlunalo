@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="Portafolio.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="h1">Mario Luna Lopez</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#study">Educación</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="parallax-container">
+        <div class="parallax-text">Web Development</div>
+    </div>
+    
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Breve descripción sobre ti.</p>
+    </section>
+    <section id="skills">
+        <h2>Mis Conocimientos</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="progress-bar">
+                <div class="progress-value" style="width: 90%;">90%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="progress-bar">
+                <div class="progress-value" style="width: 80%;">80%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="progress-bar">
+                <div class="progress-value" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="projects">
+        <h2>Educación</h2>
+        <div class="project">
+            <h3>Grado Superior en Desarrollo de Aplicaciones Web</h3>
+            <p>sept. 2024 - jun. 2026</p>
+        </div>
+        <div class="project">
+            <h3>Técnico en Sistemas Microinformáticos y Redes</h3>
+            <p>sept. 2022 - jun. 2024</p>
+        </div>
+        <!-- Añade más proyectos según sea necesario -->
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="enviar_formulario.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+   
+    
+
+
+    <footer>
+        © 2024 Mario Luna Lopez. Todos los derechos reservados.
+    </footer>
+
+
+
+</body>
+</html>
